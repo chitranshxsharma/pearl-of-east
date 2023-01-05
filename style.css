@@ -1,0 +1,122 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;  
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(241, 215, 179);
+}
+#nav{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+#nav h3{
+    margin-left: 60px;
+}
+a{
+    text-decoration: none;
+    color:  rgb(27, 27, 27);
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Gilroy";
+     
+}
+#links {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+#circle{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    background-color: black;
+}
+#icon{
+    display: flex;
+    width: 10%;
+}
+#icon a{
+    margin-top: 10px;
+    margin-right: 8px;
+}
+i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+#nav #line{
+    height: 2px;
+    margin-left: 70px;
+    margin-right: 70px;
+    width: calc(100% - 140px);
+    background-color: black;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+#center{
+    
+    height: 70% ;
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    
+}
+#center #gumbat{
+    background-image: url(https://images.unsplash.com/photo-1618220179428-22790b461013?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW50ZXJpb3IlMjBkZXNpZ258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+}
+#center #text{
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%,0 );
+}
+#text h1{
+    font-family: "voyage";
+    font-size: 70px;
+    white-space: nowrap;
+    font-weight: 100;
+    
+}
+#gumbat #circ{
+     border-radius: 50%;
+     height: 120px;
+     width: 120px;
+     top: 50%;
+     right: -60px;
+     position: absolute;
+     background-color: #fff;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 12px;
+     font-weight: 600;
+     transform: rotate(-10deg);
+}
